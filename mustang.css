@@ -1,0 +1,26 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 980px;
+    background: #2e4562;
+}
+.info {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  padding-right: 50px;
+}
+.search {
+  padding-left: 50px;
+}
+.article {
+  padding-top: 100 0 20 0;
+
+  color: white;
+}
+.img-mustang {
+  display: flex;
+  justify-content: flex-end;
+}
+
