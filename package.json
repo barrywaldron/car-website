@@ -1,0 +1,17 @@
+{
+  "name": "car-website",
+  "version": "1.0.0",
+  "description": "Car Website",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "barrywaldron",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/barrywaldron/car-website.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
