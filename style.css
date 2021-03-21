@@ -1,28 +1,32 @@
-.container {
+.wrapper {
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 980px;
     background: #2e4562;
 }
-.info {
-  padding-top: 20px;
+
+.nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   }
-  a:link {
-    color: #808080;
-    text-decoration: none;
+
+  a {
+    color: #fff;
+    text-decoration: none;        
   }
   
   .logo {
-    padding-right: 50px;
+    display: flex;
+    align-items:flex-start;
   }
   
   .article {
     padding-top: 100px;
     padding-left: 50px;  
-    color: #ffffff;
+    color: #fff;
   }
-  .more {
+  .btn {
     background-color: #add8e6;
     color: #ffffff;
     padding: 14px 25px;
@@ -30,19 +34,15 @@
     text-decoration: none;
     display: inline-block;
   }
-  .boxed {
-    background-color: #add8e6;
-    display: flex;
-    
-  }
+  
 
-  .img-mustang {  
-     
+  .img {       
   position: absolute;
   z-index: 2;
   } 
   
 .stripe {
+  
   width:  200px;
   height: 500px;
   transform: skew(-30deg);  
