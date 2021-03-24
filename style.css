@@ -22,11 +22,17 @@ align-items: center;
 .nav-link:last-child {
   margin-right: 0;
 }
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
 
-a {   
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
   
 }
 
